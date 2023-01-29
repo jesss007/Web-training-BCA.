@@ -1,0 +1,69 @@
+*{
+    color : powderblue
+}
+
+/**
+   Element selector
+**/
+h1{
+    color :bisque;
+}
+/**
+class selector
+**/
+
+.csit{
+    color: fuchsia;
+}
+/**
+ID SELECTOR
+**/
+#engineering{
+    color: pink;
+}
+
+.message{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:pink;
+}
+
+.success {
+    background-color: purple;
+}
+
+.error{
+    background-color: maroon;
+}
+/**
+Chaining Selectors
+**/
+
+.message.success {
+    background-color: oldlace;
+}
+.message.error{
+    background-color: papayawhip;
+}
+
+.message{
+    background: silver;
+    font-family:'EB Garamond', serif;
+    font-weight: bold;
+    text-transform: lowercase;
+    text-align: center;
+}
+
+img{
+    width: 600px;
+    height: 500px;
+}
+.center{
+    text-align: center;
+}
+body{
+    /**background-color: oldlace;**/
+    /**background-image: url('https://picsum.photos/1024/868');**/
+   /**background-size: cover;
+   background-repeat: no-repeat;**/
+   background-image: linear-gradient(rgb(166, 183, 221), rgb(36, 29, 18));
+}
