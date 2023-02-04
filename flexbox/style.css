@@ -46,5 +46,5 @@ header{
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
-    /*flex-direction: column;*/
+    flex-direction: column;
 }
