@@ -1,0 +1,22 @@
+header{
+    height: 100px;
+    background-color: #c8a5d6;
+}
+
+aside{
+    width: 40%;
+    float: left;
+    background-color: rgb(176, 129, 129);
+    height: 500px;
+}
+main{
+    float:left;
+    background-color: rgb(146, 132, 132);
+    height: 700px;
+    width:60%;
+}
+footer{
+    clear: left;
+    background-color:rgb(210, 194, 165);
+    height: 200px;
+}
