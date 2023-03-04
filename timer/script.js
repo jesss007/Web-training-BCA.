@@ -37,7 +37,7 @@ function timer(seconds) {
      const hour = date.getHours ();
      const minutes = date.getMinutes();
      console.log(hour, minutes);
-     displayComebackTime.textContent = `Be back in $(hour) $(minutes)`;
+     comebackTime.textContent = "Be back in" + " " + hour + ":" +minutes;
 
      
  }
